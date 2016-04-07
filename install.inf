@@ -1,0 +1,22 @@
+[info]
+title=CSS Comb
+desc=Sorts CSS properties in specific order (CSScomb engine)
+type=cudatext-plugin
+subdir=cuda_css_comb
+homepage=https://github.com/CudaText-addons/cuda_css_comb
+
+[item1]
+section=commands
+caption=CSS Comb\Format
+method=run
+lexers=CSS,SCSS,LESS
+
+[item2]
+section=commands
+caption=CSS Comb\Configure
+method=config_global
+
+[item3]
+section=commands
+caption=CSS Comb\Configure (local)
+method=config_local
